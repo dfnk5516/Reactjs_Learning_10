@@ -1,0 +1,83 @@
+$w:300px;
+$green : green;
+
+.Test3 {
+  width: $w*2;
+  margin: 10px auto;
+  border: 1px solid #dcdcdc;
+  overflow: hidden;
+
+  article {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 15px;
+
+    &:nth-child(1) {
+      background: $green;
+      color: #fff;
+    }
+
+    &:nth-child(2) {
+      border: 2px solid red;
+      box-sizing: border-box;
+
+      ul {
+        li {
+          width: 80px;
+          height: 100px;
+          float: left;
+          background: pink;
+          margin: 5px;
+          transition: 0.4s;
+          cursor: pointer;
+
+          &:hover {
+            background: red;
+            color: #fff;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*.Test3 {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  overflow: hidden;
+}
+
+.Test3 article {
+  width: 250px;
+  height: 200px;
+  float: left;
+}
+
+.Test3 article:nth-child(1) {
+  background: pink;
+}
+
+.Test3 article:nth-child(2) {
+  background: yellow;
+}
+
+.Test3 article:nth-child(2) ul {
+}
+
+.Test3 article:nth-child(2) ul li {
+  width: 50px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+  background: green;
+  transition: 0.3s;
+}
+
+.Test3 article:nth-child(2) ul li:hover {
+  background: blue;
+  color: red;
+}*/

@@ -1,0 +1,85 @@
+.Test5 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+
+  .con-left {
+    width: 580px;
+    float: left;
+
+    p {
+      float: left;
+
+      img {
+        width: 250px;
+      }
+    }
+
+    div {
+      width: 250px;
+      float: right;
+      margin-right: 30px;
+
+      h3 {
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        li {
+          line-height: 2;
+
+          &:nth-child(3n) {
+            border-bottom: 1px solid #dcdcdc;
+            margin-bottom: 20px;
+            padding-bottom: 20px
+          }
+
+          strong {
+            display: inline-block;
+            width: 100px
+          }
+        }
+      }
+    }
+
+  }
+
+  .con-right {
+    width: 600px;
+    float: right;
+
+    table {
+      .w1 {
+        width: 40px;
+      }
+
+      .w2 {}
+
+      .w3 {
+        width: 100px;
+      }
+
+      .w4 {
+        width: 100px;
+      }
+
+      .w5 {
+        width: 20px;
+      }
+
+      th,
+      td {
+        height: 35px;
+        border-bottom: 1px solid #dcdcdc;
+      }
+
+      tr {
+        &:hover td {
+          background: rgba(255, 255, 0, 0.2);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
